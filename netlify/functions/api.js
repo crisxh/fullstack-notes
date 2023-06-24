@@ -19,10 +19,10 @@ dotenv.config();
 
 
 const db = mySql2.createConnection({
-    user: 'root',
-    host: 'localhost',
+    user: 'uafgikza',
+    host: 'postgres://uafgikza:V9t6hAGB2fctnl5T6Eqmu0vpHNlrWxoI@lucky.db.elephantsql.com/uafgikza',
     password: process.env.DB_PASSWORD,
-    database: 'notes'
+    database: 'uafgikza'
 
 })
 
